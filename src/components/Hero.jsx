@@ -12,7 +12,7 @@ const Hero = () => {
     <div className="border-neutral-900 p-4 lg:md-35 flex flex-wrap items-center justify-center lg:justify-start">
       <div className="w-full lg:w-1/2">
         <motion.h1
-          variants={Container(0.5)}
+          variants={Container(1.5)}
           initial="hidden"
           animate="visible"
           className="pd-16 text-6xl font-thing tracking-tight lg:mt-16 lg:text-8xl"
@@ -37,7 +37,7 @@ const Hero = () => {
       <div className="w-full lg:w-1/2 lg:p-8 flex justify-end">
         <motion.img initial={{x:100,opacity: 0}}
         animate={{x:0, opacity:1}}
-        transition={{duration:1,delay:1}}
+        transition={{duration:1,delay:1.2}}
           src={profilepic}
           alt="Lahiru Sandaruwan"
           className="max-w-full rounded-2xl"
