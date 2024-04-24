@@ -13,7 +13,7 @@ const Project = () => {
         <div className="w-full max-w-xl lg:w-3/4"> 
         <h6 className="mb-2 font-semibold">{Project.title}</h6>
         <p className="mb-4 text-neutral-400">{Project.description}</p>
-        {Project.technologies.map((tech, index) => (<span key ={index}> {tech}</span>))}
+        {Project.technologies.map((tech, index) => (<span key ={index} className="mr-2 rounded bg-neutral-800 px-2 py-1 text-sm font-medium text-purple-300"> {tech}</span>))}
         <div/>
         </div>
         </div>
