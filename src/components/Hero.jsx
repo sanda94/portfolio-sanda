@@ -37,7 +37,7 @@ const Hero = () => {
       <div className="w-full lg:w-1/2 lg:p-8 flex justify-end">
         <motion.img initial={{x:100,opacity: 0}}
         animate={{x:0, opacity:1}}
-        transition={{duration:1,delay:1.2}}
+        transition={{duration:1,delay:1}}
           src={profilepic}
           alt="Lahiru Sandaruwan"
           className="max-w-full rounded-2xl"
