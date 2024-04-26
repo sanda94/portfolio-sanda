@@ -44,7 +44,7 @@ export const PROJECTS = [
     title: "Xpac Inventry Management system",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Our inventory management system, powered by MongoDB, offers businesses intuitive tools to track, organize, and optimize their product inventory. With React.js for the web and React Native for mobile, our solution provides user-friendly dashboards for managing inventory levels, tracking stock movements, and generating reports. Robust authentication ensures secure access, while integrated features like barcode scanning and automated alerts enhance operational efficiency. Our system empowers businesses to maintain accurate records, reduce stockouts, and optimize supply chain management for sustainable growth.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "React Native"],
   },
   {
