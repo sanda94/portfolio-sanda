@@ -1,13 +1,12 @@
 import { FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import logo from '../assets/kevinRushLogo.png';
 import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className="bg-red-300 mb-5 flex items-start justify-between py-6">
+    <nav className="bg-red-200 mb-5 flex items-start justify-between py-6">
       <motion.div 
         whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 1.1 }}
