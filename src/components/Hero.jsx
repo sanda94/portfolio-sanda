@@ -12,6 +12,10 @@ const Hero = () => {
     <div className="border-neutral-900 p-4 lg:md-35 flex flex-wrap items-center justify-center lg:justify-start">
       <div className="w-full lg:w-1/2">
         <motion.h1
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 1.1 }}
+        drag="x"
+        dragConstraints={{ left: -100, right: 100 }}
           variants={Container(1.5)}
           initial="hidden"
           animate="visible"
@@ -28,14 +32,24 @@ const Hero = () => {
         >
           Full Stack Developer
         </motion.span>
-        <motion.p  variants={Container(1.5)}
+        <motion.p 
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 1.1 }}
+        drag="x"
+        dragConstraints={{ left: -100, right: 100 }}
+         variants={Container(1.5)}
           initial="hidden"
           animate="visible"className="my-2 max-w-xl py-6 font-light tracking-tighter">
           {HERO_CONTENT}
         </motion.p>
       </div>
       <div className="w-full lg:w-1/2 lg:p-8 flex justify-end">
-        <motion.img initial={{x:100,opacity: 0}}
+        <motion.img 
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 1.1 }}
+        drag="x"
+        dragConstraints={{ left: -100, right: 100 }}
+        initial={{x:100,opacity: 0}}
         animate={{x:0, opacity:1}}
         transition={{duration:1,delay:1.2}}
           src={profilepic}

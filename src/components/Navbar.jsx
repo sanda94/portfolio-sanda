@@ -3,19 +3,35 @@ import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import logo from '../assets/kevinRushLogo.png';
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className="bg-red-300 mb-20 flex items-start justify-between py-6">
-      <div className="flex flex-shrink-0 items-start">
-        <img className="mx-2 w-10" src={logo} alt="logo"/>
-      </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+    <nav className="bg-red-300 mb-5 flex items-start justify-between py-6">
+      <motion.div 
+      whileHover={{ scale: 1.2 }}
+      whileTap={{ scale: 1.1 }}
+      drag="x"
+      dragConstraints={{ left: -100, right: 100 }}
+        initial="hidden"
+        animate="visible"
+       className="flex flex-shrink-0 items-start">
+        <img className="mx-6 w-40 rounded-2xl" src={logo} alt="logo"/>
+      </motion.div>
+      <motion.div 
+      
+      whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 1.1 }}
+        drag="x"
+        dragConstraints={{ left: -100, right: 100 }}
+          initial="hidden"
+          animate="visible"
+          className="m-8 flex items-center justify-center gap-4 text-2xl">
         <FaLinkedin />
         <FaGithub />
         <FaTwitter />
         <FaInstagram />
-      </div>
+      </motion.div>
     </nav>
   );
 };

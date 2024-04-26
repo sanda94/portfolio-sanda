@@ -16,13 +16,24 @@ const About = () => {
         initial={{ opacity:0,x:-100}}
         transition={{ duration:0.5}}
         className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
+          <motion.div 
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 1.1 }}
+        drag="x"
+        dragConstraints={{ left: -100, right: 100 }}
+          initial="hidden"
+          animate="visible"className="flex justify-center">
             <img className="rounded-2xl" src={aboutImg} alt="About" />
-          </div>
+          </motion.div>
         </motion.div>
         <motion.div
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 1.1 }}
+        drag="x"
+        dragConstraints={{ left: -100, right: 100 }}
+          initial="hidden"
+          animate="visible"
         whileInView={{opacity:1, x:0}}
-        initial={{opacity:0,x:100}}
         transition={{duration:0.5}}
         className="w-full lg:w-1/2 lg:p-8 flex justify-center items-center">
           <p className="text-neutral-500">{ABOUT_TEXT}</p>
