@@ -10,12 +10,12 @@ const Contact = () => {
       transition={{ duration: 1.5 }}
       className="border-b border-neutral-900 p-4"
     >
-      <h2 className="my-20 text-center text-neutral-900 text-4xl">
+      <h2 className="my-20 text-center text-neutral-900 text-6xl">
         Get in <span className="text-neutral-900">Touch</span>
       </h2>
-      <div className="flex justify-between text-center tracking-tighter">
+      <div className="flex flex-col lg:flex-row justify-between text-center lg:text-left tracking-tighter">
         {/* Left side with icons */}
-        <div className="flex items-center">
+        <div className="flex items-center justify-center lg:justify-start mb-4 lg:mb-0">
           <a
             href="https://www.facebook.com/"
             target="_blank"
@@ -50,8 +50,8 @@ const Contact = () => {
           </a>
         </div>
         {/* Middle section with form */}
-        <div>
-          <form className="flex flex-col">
+        <div className="flex flex-col items-center lg:items-start">
+          <form className="flex flex-col w-full lg:w-auto">
             <input type="text" placeholder="Name" className="my-2 p-2 border border-gray-300 rounded" />
             <input type="email" placeholder="Email" className="my-2 p-2 border border-gray-300 rounded" />
             <textarea placeholder="Message" rows="4" className="my-2 p-2 border border-gray-300 rounded"></textarea>
@@ -59,12 +59,9 @@ const Contact = () => {
           </form>
         </div>
         {/* Right side with contact information */}
-        <div>
+        <div className="text-center lg:text-left">
           <p className="my-4">{CONTACT.address}</p>
           <p className="my-4">{CONTACT.phoneNo}</p>
-          <p href="#" className="border-b">
-            {CONTACT.Git}
-          </p>
           <a href="#" className="border-b">
             {CONTACT.email}
           </a>

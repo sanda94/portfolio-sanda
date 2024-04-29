@@ -74,5 +74,4 @@ export const CONTACT = {
   address: "Blk 136 Bishan Street 12  ",
   phoneNo: "+65 8286 0594 ",
   email: "lsandaruwan388@gmail.com",
-  Git:" https://github.com/sanda94"
 };
