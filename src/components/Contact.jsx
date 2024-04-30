@@ -62,7 +62,7 @@ const Contact = () => {
         <div className="text-center lg:text-left">
           <p className="my-4">{CONTACT.address}</p>
           <p className="my-4">{CONTACT.phoneNo}</p>
-          <a href="#" className="border-b">
+          <a href={`mailto:${CONTACT.email}`} className="border-b">
             {CONTACT.email}
           </a>
         </div>

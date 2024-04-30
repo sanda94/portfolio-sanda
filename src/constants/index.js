@@ -41,14 +41,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Xpac Inventry Management system",
+    title: "XPAC INVENTRY MANAGEMENT SYSTEM",
     image: project1,
     description:
-      "Our inventory management system, powered by MongoDB, offers businesses intuitive tools to track, organize, and optimize their product inventory. With React.js for the web and React Native for mobile, our solution provides user-friendly dashboards for managing inventory levels, tracking stock movements, and generating reports. Robust authentication ensures secure access, while integrated features like barcode scanning and automated alerts enhance operational efficiency. Our system empowers businesses to maintain accurate records, reduce stockouts, and optimize supply chain management for sustainable growth.",
+      "Inventory management system, powered by MongoDB, offers businesses intuitive tools to track, organize, and optimize their product inventory. With React.js for the web and React Native for mobile, our solution provides user-friendly dashboards for managing inventory levels, tracking stock movements, and generating reports. Robust authentication ensures secure access, while integrated features like barcode scanning and automated alerts enhance operational efficiency. Our system empowers businesses to maintain accurate records, reduce stockouts, and optimize supply chain management for sustainable growth.",
     technologies: ["HTML", "CSS", "Node.js", "MongoDB", "React Native"],
   },
   {
-    title: "Shelter Me Mobile App & Web App ",
+    title: "SHELTER ME MOBILE APP WEB APP & WEBSITE ",
     image: project2,
     description:
       "Investigate the Animal Tracking system requirements and associated support reference papers,Analyze the system requirements and create a functional specification paper,An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking Animals.",
@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "E-COMMERCE WEBSITE.",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "Shopping Center in Sri Lanka also needs to have 3D shopping center models for viewing. I created the website and 3D model for them. Additionally, I produced all the photos using VRML. This project was very complex, and I successfully completed it. I also contributed to some of their other websites. My expertise extends to e-commerce websites, where I have extensive experience. I excel in generating a range of interface prototypes and analyzing them using various tools and techniques for the creative and highly effective design of web systems.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
