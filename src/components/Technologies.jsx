@@ -5,6 +5,7 @@ import { FaNodeJs, FaGit } from 'react-icons/fa';
 import { SiMongodb } from 'react-icons/si';
 import { motion } from "framer-motion";
 
+
 const iconVariants = (duration) => ({
   initial: { y: 0 },
   animate: {

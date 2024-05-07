@@ -10,7 +10,7 @@ const Contact = () => {
       transition={{ duration: 1.5 }}
       className="border-b border-neutral-900 p-4"
     >
-      <h2 className="my-20 text-center text-neutral-900 text-6xl">
+      <h2 className="my-20 text-center text-neutral-900 text-4xl">
         Get in <span className="text-neutral-900">Touch</span>
       </h2>
       <div className="flex flex-col lg:flex-row justify-between text-center lg:text-left tracking-tighter">

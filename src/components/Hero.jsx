@@ -28,7 +28,7 @@ const Hero = () => {
           whileTap={{ scale: 1.1 }}
           drag="x"
           dragConstraints={{ left: -100, right: 100 }}
-          className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent block mt-4"
+          className="bg-gradient-to-r from-pink-800 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent block mt-4"
         >
           Full Stack Developer
         </motion.span>
