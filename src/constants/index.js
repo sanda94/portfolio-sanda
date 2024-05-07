@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-
+import project5 from "../assets/projects/project 5.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of Sri Lanka And 6 Monthes Of Singapore hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -42,7 +42,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "XPAC INVENTRY MANAGEMENT SYSTEM",
-    image: project1,
+    image: project5,
     description:
       "Inventory management system, powered by MongoDB, offers businesses intuitive tools to track, organize, and optimize their product inventory. With React.js for the web and React Native for mobile, our solution provides user-friendly dashboards for managing inventory levels, tracking stock movements, and generating reports. Robust authentication ensures secure access, while integrated features like barcode scanning and automated alerts enhance operational efficiency. Our system empowers businesses to maintain accurate records, reduce stockouts, and optimize supply chain management for sustainable growth.",
     technologies: ["HTML", "CSS", "Node.js", "MongoDB", "React Native"],
@@ -67,6 +67,44 @@ export const PROJECTS = [
     description:
       "Shopping Center in Sri Lanka also needs to have 3D shopping center models for viewing. I created the website and 3D model for them. Additionally, I produced all the photos using VRML. This project was very complex, and I successfully completed it. I also contributed to some of their other websites. My expertise extends to e-commerce websites, where I have extensive experience. I excel in generating a range of interface prototypes and analyzing them using various tools and techniques for the creative and highly effective design of web systems.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  },
+  {
+    title: "CAUSEWAY POINT WEBSITE USING WORDPRESS THE FINAL PROJECT OF THE HUMAN-COMPUTER INTERACTION AND WEB DEVELOPMENT MODULE",
+    image: project1,
+    description:
+      "Generating a range of interface prototypes, before analyzing them using a variety of tools and techniques for the creative and highly effective design of web systems.",
+    technologies: ["HTML", "CSS", "Node.js", "MongoDB", "React Native","wordpress"],
+  },
+];
+
+export const EDUCATION = [
+  {
+    year: "2022 - 2023",
+    role: "MAJOR IN SOFTWARE ENGINEER",
+    institute: "The University of Coventry University • England.",
+    description: `Bachelor of Computing Science with Honours First Class.`,
+    
+  },
+  {
+    year: "2021 - 2022",
+    role: "MINOR IN PROGRAMING",
+    institute: "Academies Australasia College • Singapore   ",
+    description: `Advanced Diploma in Information Technology `,
+  
+  },
+  {
+    year: "2015  - 2019",
+    role: "MINOR IN INDUSTRIAL STUDIES ",
+    institute: "The Open University of • Sri Lanka",
+    description: `Diploma In Industrial Studies`,
+    
+  },
+  {
+    year: "2012 - 2012",
+    role: "MINOR IN ENGLISH STUDIES ",
+    institute: " Aquinas College of Higher Education • Sri Lanka ",
+    description: `Diploma In English `,
+
   },
 ];
 

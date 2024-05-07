@@ -1,4 +1,4 @@
-import { FaLinkedin } from 'react-icons/fa';
+import { SiTypescript  } from 'react-icons/si';
 import { RiReactjsLine } from 'react-icons/ri';
 import { DiRedis } from 'react-icons/di';
 import { FaNodeJs, FaGit } from 'react-icons/fa';
@@ -44,7 +44,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-full border-4 border-neutral-800 p-4"
         >
-          <FaLinkedin className="text-7xl text-cyan-400" />
+          <SiTypescript className="text-7xl text-blue-600" />
         </motion.div>
         <motion.div 
           variants={iconVariants(3.5)}

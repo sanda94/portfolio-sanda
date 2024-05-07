@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Navbar = () => {
   return (
-    <nav className="bg-red-200 mb-5 flex items-center justify-between py-6 px-4 lg:px-10">
+    <nav className="bg-purple-400 mb-5 flex items-center justify-between py-6 px-4 lg:px-10">
       <motion.div
         whileHover={{ scale: 1.2 }}
         whileTap={{ scale: 1.1 }}
