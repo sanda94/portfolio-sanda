@@ -25,16 +25,36 @@ const Navbar = () => {
 
       {/* Social Icons and Search */}
       <div className="flex items-center gap-6 text-3xl text-white">
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition duration-300">
+        <a
+          href="https://linkedin.com/in/lahiru-sandaruwan-a92a57246"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-400 transition duration-300"
+        >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition duration-300">
+        <a
+          href="https://github.com/sanda94"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-400 transition duration-300"
+        >
           <FaGithub />
         </a>
-        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition duration-300">
+        <a
+          href="https://www.facebook.com/roxx.sanda/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-500 transition duration-300"
+        >
           <FaFacebook />
         </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition duration-300">
+        <a
+          href="https://www.instagram.com/lsandaruwan388/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-pink-400 transition duration-300"
+        >
           <FaInstagram />
         </a>
 
