@@ -109,7 +109,7 @@ export const EDUCATION = [
 ];
 
 export const CONTACT = {
-  address: "Blk 136 Bishan Street 12  ",
+  address: "Blk 136 Bishan Street 12 136 ",
   phoneNo: "+65 8286 0594 ",
   email: "lsandaruwan388@gmail.com",
 };
