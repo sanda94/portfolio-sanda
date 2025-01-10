@@ -17,7 +17,7 @@ const Contact = () => {
         {/* Left side with icons */}
         <div className="flex items-center justify-center lg:justify-start mb-4 lg:mb-0">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/roxx.sanda/"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
@@ -25,7 +25,7 @@ const Contact = () => {
             <FaFacebook className="text-3xl text-blue-500 hover:text-blue-700" />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://linkedin.com/in/lahiru-sandaruwan-a92a57246"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
@@ -33,7 +33,7 @@ const Contact = () => {
             <FaLinkedin className="text-3xl text-blue-500 hover:text-blue-700" />
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/sanda94"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
@@ -41,7 +41,7 @@ const Contact = () => {
             <FaGithub className="text-3xl text-gray-600 hover:text-gray-800" />
           </a>
           <a
-            href="https://instergram.com/"
+            href="https://www.instagram.com/lsandaruwan388/"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
