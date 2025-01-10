@@ -41,7 +41,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "XPAC SMAER PACKAGING SYSTEM",
+    title: "XPAC SMART PACKAGING SYSTEM",
     image: project5,
     description:
       "Inventory management system, powered by MongoDB, offers businesses intuitive tools to track, organize, and optimize their product inventory. With React.js for the web and React Native for mobile, our solution provides user-friendly dashboards for managing inventory levels, tracking stock movements, and generating reports. Robust authentication ensures secure access, while integrated features like barcode scanning and automated alerts enhance operational efficiency. Our system empowers businesses to maintain accurate records, reduce stockouts, and optimize supply chain management for sustainable growth.",
